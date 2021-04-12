@@ -32,13 +32,16 @@ h3 {
 
 @media (max-width: 576px) {
   h1{
-    font-size: 40px;
+    font-size: 44px;
+    line-height: 1.5;
   }
   h2{
-    font-size: 24px;
+    font-size: 32px;
   }
-  h3{
-    font-size: 14px;
+  .project-link{
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
 
@@ -62,6 +65,21 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+    
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.primary-link:hover{
+  color: white;
 }
 
 .contact-link {
